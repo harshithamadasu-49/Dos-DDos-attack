@@ -10,6 +10,7 @@ Floods the target with multiple request which is unavailable the target to intak
 Example: 1000 computers from diff countries simultaneously flood amazon.com
 
 Features:
+
 Dos – attack
 
 source- single system 
@@ -19,6 +20,7 @@ Complex –single
 detection-easier
 
 impact- localized.
+
 
 DDOS - attack 
 
@@ -31,6 +33,7 @@ detection-harder
 impact- wide-scale.
 
 How: 
+
 1.Recon : IP Add, Server 
 
 2.Weponization: Setting Target
