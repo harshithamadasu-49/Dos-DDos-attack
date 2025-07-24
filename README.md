@@ -11,23 +11,36 @@ Example: 1000 computers from diff countries simultaneously flood amazon.com
 
 Features:
 Dos – attack
+
 source- single system 
+
 Complex –single
-detection-easier 
+
+detection-easier
+
 impact- localized.
 
 DDOS - attack 
+
 source- multiple system 
+
 Complex –More Complex
+
 detection-harder 
+
 impact- wide-scale.
 
 How: 
 1.Recon : IP Add, Server 
+
 2.Weponization: Setting Target
+
 3.Launch: Launching Tools
-4.Impact: 
+
+4.Impact:
+
 5.Persistence: pause the server, calculated 
+
 
 Types:
 
@@ -44,8 +57,13 @@ Exhaust server resource
 covers: syn,ping,etc ( syn is a Dos Attack )
 
 Example:
-multiple 3 way handshake
+
+multiple 3 way 
+
 Application Layer Attack
+
 Targets specific apps or services
+
 Covers: http get/post flood.etc
+
 Example: 100000 fake http requests
